@@ -35,3 +35,18 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+#tasks {
+    padding: 0px;
+    text-align: center;
+}
+
+select :first-child{
+    background-color: red;
+}
+select :nth-child(2){
+    background-color: yellow;
+}
+select :nth-child(3){
+    background-color: green;
+}
